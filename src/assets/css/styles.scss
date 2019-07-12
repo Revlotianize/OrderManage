@@ -135,14 +135,6 @@ html {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
-/* optional: show position indicator in red */
-body{
-    background: $whiteColor;
-    // font-family: $roboto;
-    position: relative;
-    font-size: 0px;
-    color: #666;
-}
 a, a:hover{
     outline: none;
     @include transition(0.5s);
